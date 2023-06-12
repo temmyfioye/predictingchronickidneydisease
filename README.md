@@ -10,3 +10,5 @@ A confusion matrix was plotted to evaluate the accuracy of the model. The classi
 Furthermore, the top 5 features, namely Hemoglobin (hemo), Packed Cell Volume (pcv), Specific Gravity (sg), rbc, and Albumin (al), were identified as the most important features. These features play a significant role in the random forest classifier's decision-making process. They reflect the importance of blood and urine parameters related to kidney function in determining the presence of chronic kidney disease. By considering these features, the model can make accurate predictions and provide insights into the factors that contribute most to the classification task.
 
 ![features_ckd](https://github.com/temmyfioye/predictingchronickidneydisease/assets/26744249/78d7b117-1dd4-46fc-83ef-4c7321736764)
+
+The code is available and linked to this repository.
