@@ -1,5 +1,5 @@
 # Predicting Chronic Kidney Disease
-For this project, a random forest classifier was used to predict the presence of chronic kidney disease. The dataset underwent preprocessing steps, such as converting categorical variables like "rbc" (Red Blood Cell count) to binary values (1 or 0) for normal or abnormal, respectively. Additionally, missing values represented as "\t?" were replaced with NaN, which were then filled with the mean value of the respective columns. Duplicate columns were not present.
+For this project, a random forest classifier was used to predict the presence of chronic kidney disease. The dataset underwent preprocessing steps, such as converting categorical variables like "rbc" (Red Blood Cell count) to binary values (1 or 0) for normal or abnormal, respectively. Additionally,inaccurate values represented as "\t?" were replaced with NaN, which were then filled with the mean value of the respective columns. Duplicate rows were not present.
 
 A pipeline was created using Scikit-learn's MinMaxScaler and RandomForestClassifier after splitting the dataset into training and testing sets. The accuracy score achieved by this algorithm was 92%, indicating a good performance.
 
